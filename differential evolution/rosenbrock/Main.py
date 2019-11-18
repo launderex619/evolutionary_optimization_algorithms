@@ -1,12 +1,12 @@
 import DifferentialEvolution
-import quartic
+import rosenbrock
 problems = 4
 iterations = 5
 
 
 def main():
-    problema = quartic.Quartic()
-    problema_nombre = "quartic"
+    problema = rosenbrock.Rosenbrock()
+    problema_nombre = "rosenbrock"
     cantidadParticulas = 50
     iteraciones = 2000
     dimensiones = 2

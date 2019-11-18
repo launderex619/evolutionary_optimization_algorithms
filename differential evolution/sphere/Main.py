@@ -1,12 +1,12 @@
 import DifferentialEvolution
-import quartic
+import sphere
 problems = 4
 iterations = 5
 
 
 def main():
-    problema = quartic.Quartic()
-    problema_nombre = "quartic"
+    problema = sphere.Sphere()
+    problema_nombre = "sphere"
     cantidadParticulas = 50
     iteraciones = 2000
     dimensiones = 2
